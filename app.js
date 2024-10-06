@@ -31,3 +31,5 @@ app.use("/marsRovers", marsRoversRoute);
 app.listen(port, () => {
   console.log(`hi nasa-back is running at http://localhost:${port}`);
 });
+
+module.exports = app;
